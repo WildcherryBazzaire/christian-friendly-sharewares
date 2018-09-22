@@ -1,24 +1,23 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
+<html>
+  <head>
+    <title>Simple Map</title>
+    <meta name="viewport" content="initial-scale=1.0">
+    <meta charset="utf-8">
     <link rel="stylesheet" href="styles.css">
-</head>
-<body>
-    
+  </head>
 
+  <body>
+    <div id="main">
+      
+    </div>
+    
+    <div id="map">
+
+    </div>
 
     <script src='magic.js'> </script>
-</body>
-<iframe
-  width="600"
-  height="450"
-  frameborder="0" style="border:0"
-  src="https://www.google.com/maps/embed/v1/place?key=AIzaSyCCLCh0dX81ASRsu9OcFkWI__iMxcgaESg
-    &q=Space+Needle,Seattle+WA" allowfullscreen>
-</iframe>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCCLCh0dX81ASRsu9OcFkWI__iMxcgaESg&callback=initMap"></script>
+  </body>
+
 </html>
